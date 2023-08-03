@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-image: url("../pexels-photo-1926620.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+
+}
+.Description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 4rem;
+    align-items: center;
+    text-align: center;
+    color: white;
+    
+}
+.Description span{
+    color: rgb(231, 208, 105);
+}
+.Description p{
+    width: 60%;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 4rem;
+    background-color: black;
+}
+.nav .logo{
+    flex: 1;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.nav .logo img{
+    width: 7rem;
+    height: 3rem;
+}
+.nav ul{
+    flex: 5;
+    margin-left: 1ex;
+
+}
+.nav ul li{
+    display: inline;
+    margin-left: 6rem;
+    padding: 1rem;
+    
+    /* margin : 2rem;8 */
+}
+.nav ul li a{
+    color: white;
+    
+    /* padding: 1rem; */
+
+}
+.nav ul li :hover{
+    color: rgb(231, 208, 105);
+    
+}
+
+.footer{
+    text-align: center;
+    color: rgb(235, 178, 23);
+    right: 0;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+
+
+}
+    
+    
+
+
+
+
+
+
+
+

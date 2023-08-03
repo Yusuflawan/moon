@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.deleteVideo{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.deleteVideo form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.deleteVideo form input, select{
+    margin-top: 2rem;
+    width: 70%;
+    padding-left: .5rem;
+    font-size: 1rem;
+    outline: none;
+    border-radius: 8px;
+}
+/* .deleteVideo form select{
+    margin-top: 1rem;
+    width: 70%;
+} */

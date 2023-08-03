@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+
+}
+body{
+    background-image: url("pexels-photo-1926620.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+.nav ul li{
+    display: inline;
+    /* margin-left: 1rem; */
+    padding: 1rem;
+    margin-right: 2rem;
+    justify-content: center;
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    ;
+    
+}

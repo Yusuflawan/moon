@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.body{
+    background-image: url("../premium_photo-1677526496597-aa0f49053ce2.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    height: 4rem;
+}
+.head .logo{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.head .logo img{
+    width: 100px;
+    height: 40px;
+}
+.head ul{
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.head ul li{
+float: right;
+margin-right: 2rem;
+}
+
+.head ul li a{
+    margin: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.head ul li :hover{
+    color: black;
+}
+.big-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 4rem;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+}
+.big-text span{
+    color: rgb(244, 165, 247);
+}
+.big-text p{
+    width: 60%;
+}
+
+.form{
+    width: 250px;
+    height: 380px;
+    position: absolute;
+    border-radius: 10px;
+    justify-content: center;
+   
+}
+
+.form h2{
+    width: 220px;
+    text-align: center;
+    font-size: 22;
+    margin: 8px;
+    box-sizing: border-box;
+    
+}
+.form h2 :hover{
+    color: green;
+
+}
+.e-book{
+    width: 100%;
+    height: 5rem;
+    background-color: #fff;
+}
+
+#contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 8rem;
+    text-align: center;
+    background-color: rgb(199, 174, 174);
+}
+#contact #contact-items{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+#contact p{
+    flex: 1;
+    /* padding-top: 1rem; */
+    /* display: inline;
+    margin: 4rem; */
+}
+#contact-items{
+    text-align: center;
+
+}
